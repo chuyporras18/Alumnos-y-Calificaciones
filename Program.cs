@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Alumnos_y_Calificaciones.home.view;
+using System;
 using System.Windows.Forms;
 
 namespace Alumnos_y_Calificaciones
@@ -16,7 +14,7 @@ namespace Alumnos_y_Calificaciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ActivityHome());
         }
     }
 }
